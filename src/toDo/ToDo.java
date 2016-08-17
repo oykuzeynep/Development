@@ -25,6 +25,10 @@ public class ToDo {
 		else
 			return "☐";
 	}
+
+	public void setChecked(boolean isChecked) {
+		this.isChecked = isChecked;
+	}
 	
 	
 	
